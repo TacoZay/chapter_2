@@ -21,8 +21,6 @@ public class exercise4 {
         double result = meters * 0.3025;
 
         //prints the result
-
-         
         System.out.println(meters + " square meters is " + result + " pings");
 
     }
