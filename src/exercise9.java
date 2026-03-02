@@ -10,11 +10,21 @@ the distance covered. Here is a sample run
 import java.util.Scanner;
 
 public class exercise9 {
-    public static void main(String args){
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int u, t, a;
-        //How do i assign multiple variables for 
+        double u, t, a;
+        double distance = 0;
+
+        //How do make the user input assign multiple variables in one statement
         System.out.print("Enter u, t, and a: ");
-        u =sc.nextInt();
+        u = sc.nextDouble();
+        t = sc.nextDouble();
+        a = sc.nextDouble();
+        // System.out.println(u + " "+ t + " "+ " " + a);
+
+        distance = (u * t) + (1/2) * (Math.pow((a * t), 2));
+
+        //print the result
+        System.out.printf("The distance covered is %.1f", distance);
     }
 }
