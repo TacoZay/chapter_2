@@ -1,3 +1,4 @@
+package exercises;
 /*(Find the number of years) Write a program that prompts the user to enter the 
 minutes and displays the maximum number of years and remaining days for the minutes.
 For simplicity, assume that a year has 365 days. Here is a sample run:

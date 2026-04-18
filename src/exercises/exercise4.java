@@ -1,9 +1,6 @@
-/*(Conver square meters into ping) Write a program that converts square meter into ping. The program prompts the user
-to enter a number in square meter, converts it to ping, and displays the result. One square meter is 
-0.3025 ping. Here is a sample run:
+package exercises;
 
-Enter a number in square meters: 50 
-50.0 square meters is 15.125 pings*/
+
 
 //import scanner
 import java.util.Scanner;

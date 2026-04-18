@@ -1,3 +1,4 @@
+package exercises;
 /*(Sum the digits in an integer) Write a program that reads an integer between 0 & 1000 and adds all of the
 digits in the integer. For example, if the integer is 932, the sum of all its digits is 14
 Hint: use the % to extract digits and use the / operator to remove the extracted digits. For example 932 % 10 = 2

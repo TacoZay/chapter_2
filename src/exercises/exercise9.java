@@ -1,3 +1,4 @@
+package exercises;
 /*Newton’s equation of motion for distance covered given initial
 velocity, constant acceleration, and total time is described by the expression
 s = ut + 1/2* ((at)^2) 
